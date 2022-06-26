@@ -1,4 +1,4 @@
-# House-price-prediction
+# House-price-prediction using XGBoost and neural approaches
 
 PROBLEM DESCRIPTION:
 With 79 explanatory variables describing (almost) every aspect of residential homes in Ames, Iowa, this problem challenges us to predict the final price of each home.
@@ -9,6 +9,7 @@ The dataset for this problem is quite huge and contains both categorical and num
 Further I used Sklearn Pipelines for data preprocessing and applying models. I used XGBoost regressor with hyperparamter tuning using GridSearchCV and neural network approaches and XGBoost gave the better result out of the two.
 
 DATA DESCRIPTION:
+The dataset is collected from kaggle.
 Here's a brief version of what you'll find in the data description file.
 
     SalePrice - the property's sale price in dollars. This is the target variable that you're trying to predict.
