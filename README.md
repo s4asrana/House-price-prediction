@@ -5,8 +5,8 @@ With 79 explanatory variables describing (almost) every aspect of residential ho
 Acknowledgement: The Ames Housing dataset was compiled by Dean De Cock for use in data science education. 
 
 APPROACH USED TO SOLVE THE PROBLEM:
-The dataset for this problem is quite huge and contains both categorical and numerical columns.To solve the problem I used all the numerical columns and only those categorical columns which have a cardinality(number of unique values) of less than or equal to 10.
-Further I used Sklearn Pipelines for data preprocessing and applying models. I used XGBoost regressor with hyperparamter tuning using GridSearchCV and neural network approaches and XGBoost gave the better result out of the two.
+The dataset for this problem is quite huge and contains both categorical and numerical columns.To solve the problem all the numerical columns and only those categorical columns which have a cardinality(number of unique values) of less than or equal to 10, are used.
+Further, Sklearn Pipelines for data preprocessing and applying models are used. XGBoost regressor with hyperparamter tuning using GridSearchCV and neural network approaches are employed, and XGBoost gave the better result out of the two.
 
 DATA DESCRIPTION:
 The dataset is collected from kaggle.
